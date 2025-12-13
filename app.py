@@ -210,8 +210,8 @@ def gerar_imagem(prompt, fotos_bytes_lista, nome_estilo):
             config=types.GenerateContentConfig(
                 response_modalities=['TEXT', 'IMAGE'],
                 image_config=types.ImageConfig(
-                    aspect_ratio="1:1",
-                    image_size="1K"
+                    aspect_ratio="4:5",
+                    image_size="2K"
                 ),
             )
         )
